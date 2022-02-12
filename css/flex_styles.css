@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.polaroid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 350px;
+    height: 420px;
+    font-size: 1.5em;
+}
+
+img {
+    width: 100%;
+}
